@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class CheckBoxFromjson extends StatelessWidget {
   Function (String name , bool Value)onCheckBoxCallBack;
   String name;
@@ -36,47 +35,3 @@ class CheckBoxFromjson extends StatelessWidget {
     );
   }
 }
-
-
-
-
-//
-// class CheckBoxListBuilder extends StatefulWidget {
-//   Map<String, bool> values = {};
-//
-//   CheckBoxListBuilder({@required this.values});
-//
-//   @override
-//   CheckBoxListBuilderState createState() => new CheckBoxListBuilderState();
-// }
-//
-// class CheckBoxListBuilderState extends State<CheckBoxListBuilder> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       width: MediaQuery.of(context).size.width,
-//       height: 100,
-//       child: ListView(
-//         children: widget.values.keys.map((String key) {
-//           return SizedBox(
-//             height: 30,
-//             child: CheckboxListTile(
-//               dense: true,
-//               activeColor: Color(0xFF8F111D),
-//               title: Text(
-//                 key,
-//                 style: TextStyle(fontSize: 15.0),
-//               ),
-//               value: widget.values[key],
-//               onChanged: (bool value) {
-//                 setState(() {
-//                   widget.values[key] = value;
-//                 });
-//               },
-//             ),
-//           );
-//         }).toList(),
-//       ),
-//     );
-//   }
-// }

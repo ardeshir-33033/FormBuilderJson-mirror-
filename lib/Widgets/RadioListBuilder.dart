@@ -33,7 +33,6 @@ class _RadioListBuilderState extends State<RadioListBuilder> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(widget.RadioList[index], style: TextStyle(fontSize: 15),),
-
                       Radio(
                         materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                         activeColor: Color(0xFF8F111D),
